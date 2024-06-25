@@ -1,5 +1,5 @@
 {% set name = "molcomplib" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/molcomplib-{{ version }}.tar.gz
-  sha256: 8991c8675d8c1f902ef4290aeaf76d803f35796a01b06bd698a33d1b86802624
+  sha256: 31d3d8645c0363611891ea2409df28bfa719dc0a7bd26f70c0a9e5ba10158243
 
 build:
   noarch: python
